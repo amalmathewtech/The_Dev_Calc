@@ -1,0 +1,100 @@
+#:import hex kivy.utils.get_color_from_hex
+#:set bg_clr hex('#7e807e')
+
+<DevCalc>:
+    canvas.before:
+        Color:
+            rgba: bg_clr
+        Rectangle:
+            pos: self.pos
+            size: self.size
+   
+    FloatLayout:
+        orientation: 'vertical'
+        pos: root.pos
+        size: root.size
+        
+        Label:
+            id:dec_lbl
+            pos_hint: {"x":0.15,"y":0.870}
+            size_hint: (0.15,0.09)
+            text: 'Decimal'
+            font_size: (( root.height)+(root.width))/50
+            color: 1,1,1,1
+            multiline:False
+	
+        TextInput:
+            id:dec
+            pos_hint: {"x":0.40,"y":0.890}
+            size_hint: (0.50,0.045)
+            hint_text: 'Decimal number'
+            background_color: (0.87,0.87,0.87,1)
+            cursor_color: (0.56,0.92,0.96,1)
+            text_size: self.size
+            multiline: False
+            write_tab:False
+            on_text:app.dec_process()
+
+        Label:
+            id:hex_lbl
+            pos_hint: {"x":0.125,"y":0.779}
+            size_hint: (0.135,0.09)
+            text: 'Hex'
+            font_size: (( root.height)+(root.width))/50
+            color: 1,1,1,1
+            multiline:False
+
+        TextInput:
+            id:hex
+            pos_hint: {"x":0.40,"y":0.790}
+            size_hint: (0.50,0.045)
+            hint_text: 'Hex number'
+            background_color: (0.87,0.87,0.87,1)
+            cursor_color: (0.56,0.92,0.96,1)
+            text_size: self.size
+            multiline: False
+            write_tab:False
+            on_text:app.hex_process()
+        
+        Label:
+            id:octal_lbl
+            pos_hint: {"x":0.125,"y":0.685}
+            size_hint: (0.15,0.09)
+            text: 'Octal'
+            font_size: (( root.height)+(root.width))/50
+            color: 1,1,1,1
+            multiline:False
+
+        TextInput:
+            id:oct
+            pos_hint: {"x":0.40,"y":0.697}
+            size_hint: (0.50,0.045)
+            hint_text: 'Octal number'
+            background_color: (0.87,0.87,0.87,1)
+            cursor_color: (0.56,0.92,0.96,1)
+            text_size: self.size
+            multiline: False
+            write_tab:False
+            on_text:app.oct_process()
+        
+        Label:
+            id:bin_lbl
+            pos_hint: {"x":0.130,"y":0.585}
+            size_hint: (0.15,0.09)
+            text: 'Binary'
+            font_size: (( root.height)+(root.width))/50
+            color: 1,1,1,1
+            multiline:False
+
+        TextInput:
+            id:bin
+            pos_hint: {"x":0.40,"y":0.532}
+            size_hint: (0.50,0.110)
+            hint_text: 'Binary number'
+            background_color: (0.87,0.87,0.87,1)
+            cursor_color: (0.56,0.92,0.96,1)
+            text_size: self.size
+            multiline: True
+            write_tab:False
+            on_text:app.bin_process()
+
