@@ -10,8 +10,9 @@ This app was made with python using the awesome kivy frame work. Check it out - 
 
 Binary, Octal, Decimal and Hexadecimal  Converter Using Kivy
 
-<img src="https://github.com/amalmathewtech/The_Dev_Calc/blob/main/v0.1_screenshots/20210214_071911.jpg" width="100">
-<img src="https://github.com/amalmathewtech/The_Dev_Calc/blob/main/v0.1_screenshots/20210214_071945.jpg" width="100">
+<img src="https://raw.githubusercontent.com/amalmathewtech/The_Dev_Calc/main/v0.1_screenshots/20210214_071911.jpg" width="150" height="300" >            <img src="https://github.com/amalmathewtech/The_Dev_Calc/blob/main/v0.1_screenshots/20210214_071945.jpg?raw=true" width="150" height="300" >
+
+
 
 **V0.2**
 
@@ -19,11 +20,7 @@ Binary, Octal, Decimal and Hexadecimal  Converter Using Kivy
 Repackaged with kivyMD
 
 Base Converter and ASCII Table added .
+<img src="https://github.com/amalmathewtech/The_Dev_Calc/blob/main/v0.2_screenshots/20210413_134240.jpg?raw=true" width="150" height="300" >                  <img src="https://github.com/amalmathewtech/The_Dev_Calc/blob/main/v0.2_screenshots/20210413_134158.jpg?raw=true" width="150" height="300" >                 <img src="https://github.com/amalmathewtech/The_Dev_Calc/blob/main/v0.2_screenshots/20210413_134139.jpg?raw=true" width="150" height="300" >
 
-
-
-<img src="https://github.com/amalmathewtech/The_Dev_Calc/blob/main/v0.2_screenshots/20210413_134240.jpg" width="100">
-<img src="https://github.com/amalmathewtech/The_Dev_Calc/blob/main/v0.2_screenshots/20210413_134158.jpg" width="100">
-<img src="https://github.com/amalmathewtech/The_Dev_Calc/blob/main/v0.2_screenshots/20210413_134139.jpg" width="100">
 
 Get it on Google Play (v1.0):https://play.google.com/store/apps/details?id=com.tinkererway.thedevcalc
