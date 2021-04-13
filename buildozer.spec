@@ -28,7 +28,7 @@ source.include_exts = py,png,jpg,kv,atlas
 #source.exclude_patterns = license,images/*/*.jpg
 
 # (str) Application versioning (method 1)
-version = 0.1
+version = 0.2
 
 # (str) Application versioning (method 2)
 # version.regex = __version__ = ['"](.*)['"]
@@ -36,7 +36,7 @@ version = 0.1
 
 # (list) Application requirements
 # comma separated e.g. requirements = sqlite3,kivy
-requirements = python3,kivy
+requirements = python3,kivy==2.0.0,https://github.com/kivymd/KivyMD/archive/master.zip,pygments,sdl2_ttf==2.0.15,pillow
 
 # (str) Custom source folders for requirements
 # Sets custom source for any requirements with recipes
@@ -213,13 +213,13 @@ android.api = 29
 #android.uses_library =
 
 # (str) Android logcat filters to use
-#android.logcat_filters = *:S python:D
+android.logcat_filters = *:S python:D
 
 # (bool) Copy library instead of making a libpymodules.so
 #android.copy_libs = 1
 
 # (str) The Android arch to build for, choices: armeabi-v7a, arm64-v8a, x86, x86_64
-android.arch = arm64-v8a
+android.arch = armeabi-v7a
 
 #
 # Python for android (p4a) specific
