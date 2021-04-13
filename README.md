@@ -20,6 +20,8 @@ Binary, Octal, Decimal and Hexadecimal  Converter Using Kivy
 Repackaged with kivyMD
 
 Base Converter and ASCII Table added .
+
+
 <img src="https://github.com/amalmathewtech/The_Dev_Calc/blob/main/v0.2_screenshots/20210413_134240.jpg?raw=true" width="150" height="300" >                  <img src="https://github.com/amalmathewtech/The_Dev_Calc/blob/main/v0.2_screenshots/20210413_134158.jpg?raw=true" width="150" height="300" >                 <img src="https://github.com/amalmathewtech/The_Dev_Calc/blob/main/v0.2_screenshots/20210413_134139.jpg?raw=true" width="150" height="300" >
 
 
